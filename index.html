@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JQuery</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>GALERIA DE FOTOS</h1>
+    <button type="button">NOVA IMAGEM +</button>
+  </header>
+  <form>
+    <h2>Inserir nova imagem</h2>
+    <input type="url" id="endereco-imagem" required placeholder="URL da imagem">
+    <button type="submit">ADICIONAR</button>
+    <button type="reset" id="botao-cancelar">CANCELAR</button>
+  </form>
+  <ul>
+    <li>
+      <img src="./images/foto1.jpg" alt="">
+      <div class="overlay-imagem-link">
+        <a href="./images/foto1.jpg" title="Abrir Imagem" target="_blank">Abrir Imagem</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images/foto2.jpg" alt="">
+      <div class="overlay-imagem-link">
+        <a href="./images/foto2.jpg" title="Abrir Imagem" target="_blank">Abrir Imagem</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images/foto3.jpg" alt="">
+      <div class="overlay-imagem-link">
+        <a href="./images/foto3.jpg" title="Abrir Imagem" target="_blank">Abrir Imagem</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images/foto4.jpg" alt="">
+      <div class="overlay-imagem-link">
+        <a href="./images/foto4.jpg" title="Abrir Imagem" target="_blank">Abrir Imagem</a>
+      </div>
+    </li>
+    <li>
+      <img src="./images/foto5.jpg" alt="">
+      <div class="overlay-imagem-link">
+        <a href="./images/foto5.jpg" title="Abrir Imagem" target="_blank">Abrir Imagem</a>
+      </div>
+    </li>
+  </ul>
+  <footer>
+    <p>
+      &copy; Todos os direitos reservados - @gabiengineer
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
